@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    font-size: 7.5vh;
+    font-size: 8vh;
     text-align: center;
-    margin-top: 80px;
-    color: #F0E6D2;
+    margin-top: 10vh;
+    color: #C89B3C;
 }
 
 section {
@@ -26,9 +26,9 @@ section {
 
 section img {
     border-radius: 4px;
-    width: 10vh;
+    width: 6vh;
     height: 100%;
-    margin-left: 33px;
+    margin-left: 4vh;
     cursor: pointer;
     transition: transform 0.4s ease;
 }
@@ -50,13 +50,27 @@ th {
     text-align: center;
     width: 700px;
     display: none;
-    margin-left: 51px;
-    color: #ffffff;
-}
-.texto p{
-    font-size: 30px;
+    margin-left: 50px;
     color: #F0E6D2;
 }
+.texto p{
+    font-size: 4.5vh;
+    color: #C89B3C;
+    margin-bottom: 0;
+    margin-top:2vh;
+}
+.texto p2{
+    font-size:2vh;
+    color: #ffffff9c;
+}
+.texto h1{
+   backdrop-filter: blur(60px); 
+   font-size: 20px;
+   border-radius: 10px;
+   padding: 10px;
+   font-weight:normal;
+}
+
 footer{
     color: #ffffff6c;
     font-size: 15px;

@@ -6,16 +6,16 @@
 }
 
 body {
-    font-family: 'braba';
-    background-image: url(/img/lee.jpg);
+    background-image: url(/img/cait.jpg);
     background-size: cover;
+    font-family: 'braba';
 }
 
 header {
     font-size: 8vh;
     text-align: center;
     margin-top: 10vh;
-    color: #F0E6D2;
+    color: #010A13;
 }
 
 section {
@@ -50,19 +50,18 @@ th {
     text-align: center;
     width: 700px;
     display: none;
-    margin-top: 15px;
-    margin-left: 51px;
-    color: #C89B3C;
-
+    margin-left: 50px;
+    color: #010A13;
 }
-
-.texto p {
+.texto p{
     font-size: 4.5vh;
-    color: #F0E6D2;
+    color: #010A13;
+    margin-bottom: 0;
+    margin-top: 2vh;
 }
-
-.texto i {
-    color: #F0E6D2;
+.texto p2{
+    font-size: 2vh;
+    color: #ffffff9c;
 }
 .texto h1{
    backdrop-filter: blur(60px); 
@@ -71,7 +70,8 @@ th {
    padding: 10px;
    font-weight:normal;
 }
-footer {
+
+footer{
     color: #ffffff6c;
     font-size: 15px;
     text-align: center;

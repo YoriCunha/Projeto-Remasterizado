@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    font-size: 7.5vh;
+    font-size: 8vh;
     text-align: center;
-    margin-top: 100px;
-    color: #F0E6D2;
+    margin-top: 10vh;
+    color: #010A13;
 }
 
 section {
@@ -26,9 +26,9 @@ section {
 
 section img {
     border-radius: 4px;
-    width: 10vh;
+    width: 6vh;
     height: 100%;
-    margin-left: 33px;
+    margin-left: 4vh;
     cursor: pointer;
     transition: transform 0.4s ease;
 }
@@ -52,5 +52,25 @@ th {
     display: none;
     margin-top: 15px;
     margin-left: 51px;
-    color: #5eff00  ;
+    color: #F0E6D2;
+}
+
+.texto p {
+    font-size: 4.5vh;
+    color: #010A13;
+}
+.texto h1{
+   backdrop-filter: blur(60px); 
+   font-size: 20px;
+   border-radius: 10px;
+   padding: 10px;
+   font-weight:normal;
+}
+
+footer {
+    color: #ffffff6c;
+    font-size: 15px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
 }

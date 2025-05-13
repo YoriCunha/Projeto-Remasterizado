@@ -13,16 +13,16 @@ body {
 
 header {
     color: #FFFF00;
-    font-size: 70px;
+    font-size: 9vh;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 15vh;
 }
 
 header p {
     color: #FFFF00;
     text-align: center;
-    font-size: 30px;
-    margin-top: 15px;
+    font-size: 3vh;
+    margin-top: 4vh;
 }
 
 /*Tabela*/
@@ -31,61 +31,48 @@ table {
     text-align: center;
     align-items: center;
     margin: 0% auto;
-    margin-top: 80px;
+    margin-top: 2vh;
     backdrop-filter: blur(65px);
     border-radius: 10px; 
 }
-th,
-td {
-    padding: 20px;
-    color: #F0E6D2;
-}
-
-th {
-    font-size: 22px;
-    margin-top: 5vh;
-    backdrop-filter: blur(65px);
-    border-radius: 10px;
-}
 
 th,td {
-    padding: 2vh;
+    padding: 1.5vh;
     color: #F0E6D2; 
 }
 
 th {
-    font-size: 2.5vh;
-    ;
+    font-size: 3vh;
 }
 
 td {
-    font-size: 16px;
+    font-size: 2vh;
 }
 
 /*Classes das Imagens da Tabela principal*/
 
 .shen {
-    width: 50px;
+    width: 4.5vh;
 }
 
 .lee {
-    width: 50px;
+    width: 4.5vh;
 }
 
 .vlad {
-    width: 50px;
+    width: 4.5vh;
 }
 
 .cait {
-    width: 50px;
+    width: 4.5vh;
 }
 
 .pike {
-    width: 50px;
+    width: 4.5vh;
 }
 
 .plus {
-    width: 50px;
+    width: 4.5vh;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
@@ -94,7 +81,7 @@ td {
 }
 footer{
     color: #ffffff6c;
-    font-size: 15px;
+    font-size: 1.8vh;
     text-align: center;
     bottom: 0;
     position: fixed;
