@@ -18,6 +18,12 @@ header {
     color: #F0E6D2;
 }
 
+.back {
+    width: 4vh;
+    position: absolute;
+    margin: 3vh;
+}
+
 section {
     width: 800px;
     margin: 0 auto;
@@ -64,13 +70,15 @@ th {
 .texto i {
     color: #F0E6D2;
 }
-.texto h1{
-   backdrop-filter: blur(60px); 
-   font-size: 20px;
-   border-radius: 10px;
-   padding: 10px;
-   font-weight:normal;
+
+.texto h1 {
+    backdrop-filter: blur(60px);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: normal;
 }
+
 footer {
     color: #ffffff6c;
     font-size: 15px;

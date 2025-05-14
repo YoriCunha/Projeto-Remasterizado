@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family:'braba';
+    font-family: 'braba';
     src: url(/fonte/BeaufortforLOL-Medium.ttf);
 }
 
@@ -16,6 +16,12 @@ header {
     text-align: center;
     margin-top: 10vh;
     color: #C89B3C;
+}
+
+.back {
+    width: 4vh;
+    position: absolute;
+    margin: 3vh;
 }
 
 section {
@@ -53,25 +59,28 @@ th {
     margin-left: 50px;
     color: #F0E6D2;
 }
-.texto p{
+
+.texto p {
     font-size: 4.5vh;
     color: #C89B3C;
     margin-bottom: 0;
-    margin-top:2vh;
-}
-.texto p2{
-    font-size:2vh;
-    color: #ffffff9c;
-}
-.texto h1{
-   backdrop-filter: blur(60px); 
-   font-size: 20px;
-   border-radius: 10px;
-   padding: 10px;
-   font-weight:normal;
+    margin-top: 2vh;
 }
 
-footer{
+.texto p2 {
+    font-size: 2vh;
+    color: #ffffff9c;
+}
+
+.texto h1 {
+    backdrop-filter: blur(60px);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+footer {
     color: #ffffff6c;
     font-size: 15px;
     text-align: center;

@@ -18,6 +18,12 @@ header {
     color: #010A13;
 }
 
+.back {
+    width: 4vh;
+    position: absolute;
+    margin: 3vh;
+}
+
 section {
     width: 800px;
     margin: 0 auto;
@@ -53,25 +59,28 @@ th {
     margin-left: 50px;
     color: #010A13;
 }
-.texto p{
+
+.texto p {
     font-size: 4.5vh;
     color: #010A13;
     margin-bottom: 0;
     margin-top: 2vh;
 }
-.texto p2{
+
+.texto p2 {
     font-size: 2vh;
     color: #ffffff9c;
 }
-.texto h1{
-   backdrop-filter: blur(60px); 
-   font-size: 20px;
-   border-radius: 10px;
-   padding: 10px;
-   font-weight:normal;
+
+.texto h1 {
+    backdrop-filter: blur(60px);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: normal;
 }
 
-footer{
+footer {
     color: #ffffff6c;
     font-size: 15px;
     text-align: center;
