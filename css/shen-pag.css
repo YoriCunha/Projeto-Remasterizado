@@ -91,33 +91,60 @@ footer {
     bottom: 0;
     position: fixed;
 }
+
 @media screen and (max-width: 768px) {
-    body{
+    body {
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         background-image: url(/img/Mobile/shenmobile.jpg);
         background-size: cover;
     }
+
+    .back {
+        display: none;
+    }
+
     .texto {
         width: 90vw;
-        font-size: 2.5vh;
-        margin-top: 15vh;
-        left: 5vw;
+        margin-top: 32vh;
+    }
+
+    .texto p {
+        font-size: 4vh;
+        text-align: center;
+        position: static;
+    }
+
+    .texto p2 {
+        font-size: 2vh;
+    }
+
+    .texto h1 {
+        position: static;
+        font-size: 2.3vh;
+    }
+
+    #texto2 {
+        margin-top: 45vh;
     }
 
     header {
         font-size: 5vh;
-        margin-top: 5vh;
+        margin-top: 6vh;
     }
 
     table img {
-        width: 4vh;
-        height: 4vh;
+        width: 4.5vh;
+        height: 4.5vh;
         margin: 0 1vh;
     }
 
     section {
         flex-direction: column;
-        margin-top: 2vh;
+        margin-top: 5vh;
         margin-bottom: 2vh;
     }
 }

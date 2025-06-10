@@ -94,48 +94,54 @@ footer {
 
 @media screen and (max-width: 768px) {
     body{
-        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: url(/img/Mobile/braumobile.jpg);
+        background-size:cover;
     }
+    .back{
+        display: none;
+    }
+    .texto {
+        width: 90vw;
+        margin-top: 32vh;
+    }
+    .texto p{
+        font-size: 4vh;
+        text-align: center;
+        position: static;
+    }
+    .texto p2{
+        font-size: 2.5vh;
+    }
+    .texto h1 {
+        position: static;
+        font-size: 2.3vh;
+    }
+    #texto1 {
+       margin-top: 45vh;
+    }
+    #texto4{
+        margin-top: 40vh;
+    }
+    
     header {
-        font-size: 2vh;
-        margin-top: 5vh;
+        font-size: 5vh;
+        margin-top: 6vh;
     }
 
-    .back {
-        width: 6vw;
+    table img {
+        width: 4.5vh;
+        height: 4.5vh;
+        margin: 0 1vh;
     }
 
     section {
         flex-direction: column;
-        margin-top: 2vh;
+        margin-top: 5vh;
         margin-bottom: 2vh;
-    }
-
-    table img {
-        width: 8vw;
-        height: 8vw;
-        margin: 0 2vw;
-    }
-
-    .texto {
-        width: 90vw;
-        margin-top: 15vh;
-        left: 5vw;
-        right: 5vw;
-        font-size: 2.5vh;
-    }
-
-    .texto p {
-        font-size: 2.5vh;
-    }
-
-    .texto h1 {
-        font-size: 3vh;
-        padding: 6px;
-    }
-
-    footer {
-        font-size: 12px;
-        padding: 8px 0;
     }
 }

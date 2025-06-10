@@ -24,38 +24,43 @@ header {
 }
 
 section {
-    width: 800px;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 5vh;
-}
-
-section img {
-    border-radius: 4px;
-    width: 6vh;
-    height: 100%;
-    margin-left: 4vh;
-    cursor: pointer;
-    transition: transform 0.4s ease;
-}
-
-section img:hover {
-    transform: scale(1.05);
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
     border: none;
-    margin-top: 5px;
 }
 
 th {
-    padding-left: 11.4vh;
+    margin-left: 10vh;
+}
+
+table img {
+    border-radius: 4px;
+    width: 6vh;
+    height: 6vh;
+    margin: 0 3vh;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+table img:hover {
+    transform: scale(1.05);
 }
 
 .texto {
-    text-align: center;
+    margin-top: 30vh;
+    position: absolute;
     width: 700px;
     display: none;
-    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: #010A13;
 }
 
@@ -85,4 +90,72 @@ footer {
     text-align: center;
     bottom: 0;
     position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: url(/img/Mobile/caitmobile.jpg);
+        background-size: cover;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .texto {
+        width: 90vw;
+        margin-top: 35vh;
+    }
+
+    .texto p {
+        font-size: 4vh;
+        text-align: center;
+        position: static;
+        color: #F0E6D2;
+    }
+
+    .texto p2 {
+        font-size: 2vh;
+    }
+
+    .texto h1 {
+        position: static;
+        font-size: 2.3vh;
+    }
+
+    #texto1 {
+        margin-top: 38vh;
+    }
+    #texto2 {
+        margin-top: 30vh;
+    }
+    #texto4 {
+        margin-top: 28vh;
+    }
+    #texto5 {
+        margin-top: 33vh;
+    }
+
+    header {
+        font-size: 5vh;
+        margin-top: 6vh;
+        color: #F0E6D2;
+    }
+
+    table img {
+        width: 4.5vh;
+        height: 4.5vh;
+        margin: 0 1vh;
+    }
+
+    section {
+        flex-direction: column;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
 }

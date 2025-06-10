@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    color: #FFFF00;
     font-size: 9vh;
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
+    color: #FFFF00;
 }
 
 header p {
@@ -25,20 +25,29 @@ header p {
     margin-top: 4vh;
 }
 
+section {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Tabela*/
 
 table {
     text-align: center;
     align-items: center;
-    margin: 0% auto;
     margin-top: 2vh;
     backdrop-filter: blur(65px);
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
-th,td {
+th,
+td {
     padding: 1.5vh;
-    color: #F0E6D2; 
+    color: #F0E6D2;
 }
 
 th {
@@ -76,13 +85,79 @@ td {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
-.plus:hover{
+
+.plus:hover {
     transform: scale(1.15);
 }
-footer{
+
+footer {
     color: #ffffff6c;
     font-size: 1.8vh;
     text-align: center;
     bottom: 0;
     position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(/img/Mobile/emobile.jpg);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        text-align: center;
+        font-size: 3.7vh;
+        margin-top: 15vh;
+    }
+
+    header p {
+        font-size: 2vh;
+        margin-top: 2vh;
+
+    }
+
+    section {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        padding: 0 2vw;
+    }
+
+    table {
+        width: 80%;
+        margin-top: 5vh;
+        border-radius: 8px;
+        backdrop-filter: blur(30px);
+    }
+
+    th,
+    td {
+        padding: 1vh;
+        font-size: 1.5vh;
+    }
+
+    table img,
+    .shen,
+    .lee,
+    .vlad,
+    .cait,
+    .pike,
+    .plus {
+        width: 3vh !important;
+        min-width: 24px;
+    }
+
+    .plus:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        font-size: 1.2vh;
+        margin-top: 2vh;
+    }
 }
