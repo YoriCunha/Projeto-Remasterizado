@@ -1,1 +1,0 @@
- Projeto concluido, as páginas html da pasta main são basicamente repetição da mesma estrutura, com exceção do arquivo "pag.html", mas com alterações minimas no arquivo css devido alguns planos de fundo serem mais claros ou mais escuros.
