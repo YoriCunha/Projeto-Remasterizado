@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'braba';
-    src: url(/fonte/BeaufortforLOL-Medium.ttf);
+    src: url(../fonte/BeaufortforLOL-Medium.ttf);
 }
 
 body {
-    background-image: url(/img/cait.jpg);
+    background-image: url(../img/cait.jpg);
     background-size: cover;
     font-family: 'braba';
 }
@@ -14,7 +14,7 @@ body {
 header {
     font-size: 8vh;
     text-align: center;
-    margin-top: 10vh;
+    margin: 10vh;
     color: #010A13;
 }
 
@@ -25,8 +25,6 @@ header {
 
 section {
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,8 +55,7 @@ table img:hover {
     margin-top: 30vh;
     position: absolute;
     width: 700px;
-    display: none;
-    align-items: center;
+    display: none;  
     justify-content: center;
     text-align: center;
     color: #010A13;
@@ -68,7 +65,7 @@ table img:hover {
     font-size: 4.5vh;
     color: #010A13;
     margin-bottom: 0;
-    margin-top: 2vh;
+    margin-top: 10vh;
 }
 
 .texto p2 {
@@ -76,7 +73,7 @@ table img:hover {
     color: #ffffff9c;
 }
 
-.texto h1 {
+.texto h1 { 
     backdrop-filter: blur(60px);
     font-size: 20px;
     border-radius: 10px;
@@ -99,7 +96,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background-image: url(/img/Mobile/caitmobile.jpg);
+        background-image: url(../img/Mobile/caitmobile.jpg);
         background-size: cover;
     }
 
@@ -109,7 +106,7 @@ footer {
 
     .texto {
         width: 90vw;
-        margin-top: 35vh;
+        margin-top: 33vh;
     }
 
     .texto p {
@@ -129,16 +126,16 @@ footer {
     }
 
     #texto1 {
-        margin-top: 38vh;
+        margin-top: 41vh;
     }
     #texto2 {
         margin-top: 30vh;
     }
     #texto4 {
-        margin-top: 28vh;
+        margin-top: 30vh;
     }
     #texto5 {
-        margin-top: 33vh;
+        margin-top: 35vh;
     }
 
     header {

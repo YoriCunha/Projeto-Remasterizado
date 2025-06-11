@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'braba';
-    src: url(/fonte/BeaufortforLOL-Medium.ttf);
+    src: url(../fonte/BeaufortforLOL-Medium.ttf);
 }
 
 body {
-    background-image: url(/img/braum.jpg);
+    background-image: url(../img/braum.jpg);
     background-size: cover;
     font-family: 'braba';
 }
@@ -99,7 +99,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background-image: url(/img/Mobile/braumobile.jpg);
+        background-image: url(../img/Mobile/braumobile.jpg);
         background-size:cover;
     }
     .back{
