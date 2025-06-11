@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'braba';
-    src: url(/fonte/BeaufortforLOL-Medium.ttf);
+    src: url(../fonte/BeaufortforLOL-Medium.ttf);
 }
 
 body {
-    background-image: url(/img/vld.jpg);
+    background-image: url(../img/vld.jpg);
     background-size: cover;
     font-family: 'braba';
 }
@@ -54,7 +54,7 @@ table img:hover {
 }
 
 .texto {
-    margin-top: 30vh;
+    margin-top: 40vh;
     position: absolute;
     width: 700px;
     display: none;
@@ -83,6 +83,12 @@ table img:hover {
     padding: 10px;
     font-weight: normal;
 }
+#texto2{
+    margin-top: 36vh;
+}
+#texto5{
+    margin-top: 44vh;
+}
 
 footer {
     color: #ffffff6c;
@@ -99,7 +105,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background-image: url(/img/Mobile/vldmobile.jpg);
+        background-image: url(../img/Mobile/vldmobile.jpg);
         background-size: cover;
     }
 
@@ -126,7 +132,9 @@ footer {
         position: static;
         font-size: 2.3vh;
     }
-
+    #texto2{
+        margin-top: 29vh;
+    }
     #texto5 {
         margin-top: 35vh;
     }
